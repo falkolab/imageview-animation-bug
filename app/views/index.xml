@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+		<ImageView id="premiumIcon" />
+		
+		<Button id="label1" onClick="doClick1" top="10">Reset class for Star 1</Button>
+		<Button id="label2" onClick="doClick2">Reset class for Star 2</Button>
+		<Button id="label3" onClick="doClick3">Reset class for Animation</Button>
+		
+		<Label top="30">Manualy added class:</Label>
+		<ImageView class="manual1" width="100" height="100" borderColor="#0000ff"/>
+		<ImageView class="manual2" width="100" height="100" borderColor="#00ff00" top="10"/>
+		
+	</Window>
+</Alloy>
